@@ -284,31 +284,3 @@
              font-size: 18px;
          }
      }
-     /* Extra small devices (portrait phones, less than 576px) */
-     
-     @media (min-width: 575.98px) {
-         body {
-             background-color: blue;
-         }
-     }
-     /* Small devices (landscape phones, less than 768px) */
-     
-     @media (min-width: 767.98px) {
-         body {
-             background-color: green;
-         }
-     }
-     /* Medium devices (tablets, less than 992px) */
-     
-     @media (min-width: 991.98px) {
-         body {
-             background-color: yellow;
-         }
-     }
-     /* Large devices (desktops, less than 1200px) */
-     
-     @media (min-width: 1199.98px) {
-         body {
-             background-color: white;
-         }
-     }
