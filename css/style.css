@@ -225,8 +225,8 @@
              padding-left: 0px;
          }
          .header-1 .box-header1:not(:first-of-type) {
-             font-size: 14px;
-             font-family: fantasy;
+             font-size: 12px;
+             font-family: Arial, Helvetica, sans-serif;
              text-align: center;
              border-right: 0px solid;
          }
