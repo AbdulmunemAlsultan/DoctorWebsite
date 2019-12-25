@@ -228,8 +228,8 @@
              font-size: 12px;
              font-family: Arial, Helvetica, sans-serif;
              text-align: center;
-             border-right: 0px solid;
-             
+             /* border-right: 0px solid; */
+             border-right: 1px solid gray;
          }
          .header-1 .box-header1:last-child {
              border-right: 0px solid;
