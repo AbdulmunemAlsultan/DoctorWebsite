@@ -106,11 +106,10 @@
          background-repeat: no-repeat;
          background-position: left;
      }
-     
-     .box-img1:hover {
+     /* .box-img1:hover {
          opacity: 0.7;
          transition: 1s;
-     }
+     } */
      
      .contant-body .box-img2 {
          background-image: url("../img/women.jpg");
@@ -118,11 +117,10 @@
          background-repeat: no-repeat;
          background-position: left;
      }
-     
-     .box-img2:hover {
+     /* .box-img2:hover {
          opacity: 0.7;
          transition: 1s;
-     }
+     } */
      
      .contant-body .box-img3 {
          background-image: url("../img/teeth.jpg");
@@ -130,11 +128,10 @@
          background-repeat: no-repeat;
          background-position: left;
      }
-     
-     .box-img3:hover {
+     /* .box-img3:hover {
          opacity: 0.7;
          transition: 1s;
-     }
+     } */
      
      .contant-body .box-img4 {
          background-image: url("../img/hand.jpg");
@@ -143,16 +140,12 @@
          background-position: left;
      }
      
-     .box-img4:hover {
-         opacity: 0.7;
-         transition: 1s;
-     }
-     
      .box-img .par-img-body {
-         color: dimgray;
+         color: white;
          font-size: 20px;
-         font-family: cursive;
+         font-family: 'Courier New', Courier, monospace;
          padding: 5px;
+         background: rgba(0, 0, 0, 0.5);
      }
      
      .befor-footer {
@@ -220,12 +213,12 @@
              align-items: center;
          }
          .box-header1 .img-hirt {
-             width: 45px;
+             width: 50px;
              height: 45px;
              padding-left: 0px;
          }
          .header-1 .box-header1:not(:first-of-type) {
-             font-size: 12px;
+             font-size: 14px;
              font-family: Arial, Helvetica, sans-serif;
              text-align: center;
              /* border-right: 0px solid; */
@@ -261,7 +254,7 @@
              grid-template-columns: 1fr;
              grid-gap: 5px;
              margin: 20px auto 20px;
-             width: 95%;
+             width: 98%;
          }
          .befor-footer {
              height: auto;
