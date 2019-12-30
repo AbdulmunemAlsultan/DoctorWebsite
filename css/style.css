@@ -1,3 +1,7 @@
+/*
+ start index style
+*/
+
 body {
     margin: 0px;
     padding: 0px;
@@ -21,13 +25,6 @@ body {
     width: 70px;
     height: 45px;
     padding-left: 5px;
-}
-
-.header-1 .box-header1:not(:first-of-type) {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-right: 2px solid gray;
-    text-align: center;
 }
 
 .header-1 .box-header1:last-child {
@@ -75,6 +72,11 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #a32a1c;
     line-height: 2;
+}
+
+.box-header1 .header-ainker {
+    text-decoration-line: none;
+    color: black;
 }
 
 .container .contant-body {
@@ -240,6 +242,25 @@ body {
     .header-1 .box-header1:last-child {
         border-right: 0px solid;
     }
+    .box-header1 .img-hirt {
+        width: 70px;
+        height: 45px;
+        padding-left: 5px;
+    }
+    .header-1 .box-header1:not(:first-of-type) {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-right: 2px solid gray;
+        text-align: center;
+    }
+    .header-1 .box-header1:last-child {
+        border-right: 0px solid;
+    }
+    .box-header1 .header-ainker:hover {
+        color: lightsalmon;
+        transition: 1s;
+        cursor: pointer;
+    }
     .header-2 .pargraph-img {
         /* border: 2px solid blue; */
         height: auto;
@@ -347,6 +368,11 @@ body {
     .header-1 .box-header1:last-child {
         border-right: 0px solid;
     }
+    .box-header1 .header-ainker:hover {
+        color: lightsalmon;
+        transition: 1s;
+        cursor: pointer;
+    }
     .header-2 .pargraph-img {
         /* border: 2px solid blue; */
         height: auto;
@@ -439,6 +465,11 @@ body {
     }
     .header-1 .box-header1:last-child {
         border-right: 0px solid;
+    }
+    .box-header1 .header-ainker:hover {
+        color: lightsalmon;
+        transition: 1s;
+        cursor: pointer;
     }
     .header-2 .pargraph-img {
         /* border: 2px solid blue; */
@@ -533,7 +564,7 @@ body {
     .header-1 .box-header1:last-child {
         border-right: 0px solid;
     }
-    .box-header1:hover {
+    .box-header1 .header-ainker:hover {
         color: lightsalmon;
         transition: 1s;
         cursor: pointer;
@@ -572,13 +603,12 @@ body {
         line-height: 2;
     }
     .container .contant-body {
-        /* border: 2px solid yellow; */
         height: auto;
         display: grid;
-        grid-template-columns: 45% 45%;
-        grid-gap: 30px 85px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px 10px;
         margin: 20px auto 20px;
-        width: 70%;
+        width: 95%;
     }
     .contant-body .box-img {
         display: flex;
@@ -680,3 +710,218 @@ body {
         font-family: cursive;
     }
 }
+
+
+/*
+ End index style
+*/
+
+
+/* Start About-us style */
+
+@media (max-width: 574.99px) {
+    .contantaboutus {
+        border: 2px solid darkgray;
+        height: auto;
+        width: 90%;
+        margin: 20px auto 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px;
+        grid-gap: 5px;
+        background: #5dade2;
+    }
+    .contantaboutus .boxaboutus {
+        border: 2px solid gray;
+        background: #7fb3d5;
+        color: white;
+    }
+    .title-boxaboutus {
+        text-align: center;
+        font-family: cursive;
+        color: black;
+    }
+    .pargraph-boxaboutus {
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: justify;
+        line-height: 1.5;
+        font-size: 18px;
+    }
+    .contantaboutus-students {
+        border: 2px solid darkgray;
+        height: auto;
+        width: 90%;
+        margin: 20px auto 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px;
+        grid-gap: 5px;
+        background: #5dade2;
+    }
+    .contantaboutus-students .boxaboutus-students {
+        border: 2px solid gray;
+        background: #7fb3d5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+    }
+}
+
+@media (min-width: 575.98px) {
+    .contantaboutus {
+        border: 2px solid darkgray;
+        height: auto;
+        width: 95%;
+        margin: 20px auto 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px;
+        grid-gap: 5px;
+        background: #5dade2;
+    }
+    .contantaboutus .boxaboutus {
+        border: 2px solid gray;
+        background: #7fb3d5;
+        color: white;
+    }
+    .title-boxaboutus {
+        text-align: center;
+        font-family: cursive;
+        color: black;
+    }
+    .pargraph-boxaboutus {
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: justify;
+        line-height: 1.5;
+        font-size: 18px;
+    }
+    .contantaboutus-students {
+        border: 2px solid darkgray;
+        height: auto;
+        width: 95%;
+        margin: 20px auto 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px;
+        grid-gap: 5px;
+        background: #5dade2;
+    }
+    .contantaboutus-students .boxaboutus-students {
+        border: 2px solid gray;
+        background: #7fb3d5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+    }
+}
+
+@media (min-width: 767.98px) {
+    .contantaboutus {
+        border: 2px solid darkgray;
+        height: auto;
+        width: 85%;
+        margin: 20px auto 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+        grid-gap: 5px;
+        background: #5dade2;
+    }
+    .contantaboutus .boxaboutus {
+        border: 2px solid gray;
+        background: #7fb3d5;
+        color: white;
+    }
+    .title-boxaboutus {
+        text-align: center;
+        font-family: cursive;
+        color: black;
+    }
+    .pargraph-boxaboutus {
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: justify;
+        line-height: 1.5;
+        font-size: 18px;
+    }
+    .contantaboutus-students {
+        border: 2px solid darkgray;
+        height: auto;
+        width: 85%;
+        margin: 20px auto 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 10px;
+        grid-gap: 5px;
+        background: #5dade2;
+    }
+    .contantaboutus-students .boxaboutus-students {
+        border: 2px solid gray;
+        background: #7fb3d5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+    }
+}
+
+@media (min-width: 991.98px) {
+    .contantaboutus {
+        border: 2px solid darkgray;
+        height: auto;
+        width: 70%;
+        margin: 20px auto 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+        grid-gap: 5px;
+        background: #5dade2;
+    }
+    .contantaboutus .boxaboutus {
+        border: 2px solid gray;
+        background: #7fb3d5;
+        color: white;
+    }
+    .title-boxaboutus {
+        text-align: center;
+        font-family: cursive;
+        color: black;
+    }
+    .pargraph-boxaboutus {
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: justify;
+        line-height: 1.5;
+        font-size: 18px;
+    }
+    .contantaboutus-students {
+        border: 2px solid darkgray;
+        height: auto;
+        width: 70%;
+        margin: 20px auto 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 10px;
+        grid-gap: 5px;
+        background: #5dade2;
+    }
+    .contantaboutus-students .boxaboutus-students {
+        border: 2px solid gray;
+        background: #7fb3d5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+    }
+}
+
+
+/* End about-us style */
