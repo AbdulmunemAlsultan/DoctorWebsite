@@ -2169,20 +2169,21 @@ body {
         margin: 0px;
         padding: 0px;
         /* border: 1px solid black; */
-        height: 70px;
+        height: 0px;
         display: none;
     }
     .smaildeve .ac-out {
         display: none;
         justify-content: center;
         align-items: center;
-        padding: 5px;
+        padding: 0px;
         border-bottom: 1px solid white;
     }
     .smaildeve .ac-out a {
         text-decoration: none;
         color: black;
         font-size: 18px;
+        display: none;
     }
 }
 
@@ -2278,7 +2279,7 @@ body {
         margin: 0px;
         padding: 0px;
         /* border: 1px solid black; */
-        height: 70px;
+        height: 0px;
         display: none;
     }
     .smaildeve .ac-out {
@@ -2292,6 +2293,7 @@ body {
         text-decoration: none;
         color: black;
         font-size: 18px;
+        display: none;
     }
 }
 
