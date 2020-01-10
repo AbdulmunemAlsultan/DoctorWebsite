@@ -8,14 +8,10 @@ $(document).ready(function() {
         $('.form-pationt').show(1500)
     });
     if ($(window).width() <= 574.99) {
-
         $('.processimge').click(function() {
             $('.smaildeve').css('display', 'block');
         })
 
-    } else {
-        $('.smaildeve').hide(500);
-        console.log("more windows")
     }
 
 });
