@@ -14,7 +14,7 @@ $(document).ready(function() {
 
     } else {
         $('.processimge').click(function() {
-            $('.smaildeve').css('display', 'block');
+            $('.smaildeve').css('display', 'none');
         })
     }
 
