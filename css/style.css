@@ -1580,3 +1580,282 @@ body {
 
 
 /* End Sgin-up style */
+
+
+/* start Login style */
+
+@media (max-width: 574.99px) {
+    .containt-login {
+        height: 350px;
+        /* background-color: #f8f9f9; */
+        margin: 0px;
+        border: 0.5px solid #f8f9f9;
+        display: flex;
+    }
+    .containt-login .login-data {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        margin: 20px auto 20px;
+        align-items: center;
+        width: 97%;
+        height: auto;
+        border-top: 2px solid #7fb3d5;
+        border-bottom: 2px solid #7fb3d5;
+        background-color: lightsteelblue;
+    }
+    .login-data .login-fel {
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        width: 70%;
+        padding-left: 30px;
+    }
+    .login-data .iconuser {
+        background-image: url("../img/login.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 30px 35px;
+    }
+    .login-data .iconpass {
+        background-image: url("../img/lock.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 30px 30px;
+    }
+    .login-fel:focus {
+        outline: none;
+        transition: transform .15s ease;
+        transform: scale(1.1);
+        border: 2px solid #7fb3d5;
+        background-color: white;
+    }
+    .login-data .login-sub {
+        margin-top: 10px;
+        width: 78%;
+        padding: 6px;
+        text-align: center;
+        font-size: 22px;
+        border: none;
+        background-color: white;
+        margin-bottom: 5px;
+    }
+    .login-sub:hover {
+        font-weight: bold;
+        background-color: #7fb3d5;
+        transition: 1s;
+    }
+}
+
+@media (min-width: 575.98px) {
+    .containt-login {
+        height: 350px;
+        /* background-color: #f8f9f9; */
+        margin: 0px;
+        border: 0.5px solid #f8f9f9;
+        display: flex;
+    }
+    .containt-login .login-data {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        margin: 20px auto 20px;
+        align-items: center;
+        width: 90%;
+        height: auto;
+        border-top: 2px solid #7fb3d5;
+        border-bottom: 2px solid #7fb3d5;
+        background-color: lightsteelblue;
+    }
+    .login-data .login-fel {
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        width: 70%;
+        padding-left: 30px;
+    }
+    .login-data .iconuser {
+        background-image: url("../img/login.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 30px 35px;
+    }
+    .login-data .iconpass {
+        background-image: url("../img/lock.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 30px 30px;
+    }
+    .login-fel:focus {
+        outline: none;
+        transition: transform .15s ease;
+        transform: scale(1.1);
+        border: 2px solid #7fb3d5;
+        background-color: white;
+    }
+    .login-data .login-sub {
+        margin-top: 10px;
+        width: 78%;
+        padding: 6px;
+        text-align: center;
+        font-size: 22px;
+        border: none;
+        background-color: white;
+        margin-bottom: 5px;
+    }
+    .login-sub:hover {
+        font-weight: bold;
+        background-color: #7fb3d5;
+        transition: 1s;
+    }
+}
+
+@media (min-width: 767.98px) {
+    .containt-login {
+        height: 350px;
+        /* background-color: #f8f9f9; */
+        margin: 0px;
+        border: 0.5px solid #f8f9f9;
+        display: flex;
+    }
+    .containt-login .login-data {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        margin: 20px auto 20px;
+        align-items: center;
+        width: 75%;
+        height: auto;
+        border-top: 2px solid #7fb3d5;
+        border-bottom: 2px solid #7fb3d5;
+        background-color: lightsteelblue;
+    }
+    .login-data .login-fel {
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        width: 70%;
+        padding-left: 30px;
+    }
+    .login-data .iconuser {
+        background-image: url("../img/login.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 30px 35px;
+    }
+    .login-data .iconpass {
+        background-image: url("../img/lock.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 30px 30px;
+    }
+    .login-fel:focus {
+        outline: none;
+        transition: transform .15s ease;
+        transform: scale(1.1);
+        border: 2px solid #7fb3d5;
+        background-color: white;
+    }
+    .login-data .login-sub {
+        margin-top: 10px;
+        width: 78%;
+        padding: 6px;
+        text-align: center;
+        font-size: 22px;
+        border: none;
+        background-color: white;
+        margin-bottom: 5px;
+    }
+    .login-sub:hover {
+        font-weight: bold;
+        background-color: #7fb3d5;
+        transition: 1s;
+    }
+}
+
+@media (min-width: 991.98px) {
+    .containt-login {
+        height: 350px;
+        /* background-color: #f8f9f9; */
+        margin: 0px;
+        border: 0.5px solid #f8f9f9;
+        display: flex;
+    }
+    .containt-login .login-data {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        margin: 20px auto 20px;
+        align-items: center;
+        width: 40%;
+        height: auto;
+        border-top: 2px solid #7fb3d5;
+        border-bottom: 2px solid #7fb3d5;
+        background-color: lightsteelblue;
+    }
+    .login-data .login-fel {
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        width: 70%;
+        padding-left: 30px;
+    }
+    .login-data .iconuser {
+        background-image: url("../img/login.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 30px 35px;
+    }
+    .login-data .iconpass {
+        background-image: url("../img/lock.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 30px 30px;
+    }
+    .login-fel:focus {
+        outline: none;
+        transition: transform .15s ease;
+        transform: scale(1.1);
+        border: 2px solid #7fb3d5;
+        background-color: white;
+    }
+    .login-data .login-sub {
+        margin-top: 10px;
+        width: 78%;
+        padding: 6px;
+        text-align: center;
+        font-size: 22px;
+        border: none;
+        background-color: white;
+        margin-bottom: 5px;
+    }
+    .login-sub:hover {
+        font-weight: bold;
+        background-color: #7fb3d5;
+        transition: 1s;
+    }
+}
+
+
+/* end Login style */
+
+
+/* 
+@media (max-width: 574.99px) {
+}
+    @media (min-width: 575.98px) {
+    }
+@media (min-width: 767.98px) {
+}
+@media (min-width: 991.98px) {
+
+}
+ */

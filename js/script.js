@@ -1,33 +1,12 @@
 $(document).ready(function() {
-
-
     $("#doc").click(function() {
-        $('.form-doctor').css({
-            'display': 'inline-block'
-        })
-        $('.form-pationt').css({
-                'display': 'none'
-            })
-            // $(".radiobutton").css({
-            //     'display': 'none'
-            // });
-
+        $('.form-pationt').hide(1500)
+        $('.form-doctor').show(1500)
     });
-
-
     $("#pat").click(function() {
-        $('.form-pationt').css({
-            'display': 'inline-block'
-        })
-
-        $('.form-doctor').css({
-            'display': 'none'
-        })
+        $('.form-doctor').hide(1500)
+        $('.form-pationt').show(1500)
     });
-    // $(".radiobutton").css({
-    //     'display': 'none'
-    // });
-
 
 
 });
