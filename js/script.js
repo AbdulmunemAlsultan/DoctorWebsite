@@ -7,7 +7,7 @@ $(document).ready(function() {
         $('.form-doctor').hide(1500)
         $('.form-pationt').show(1500)
     });
-    if ($(window).width() <= 480.99) {
+    if ($(window).width() <= 574.99) {
 
         $('.processimge').click(function() {
             $('.smaildeve').css('display', 'block');
