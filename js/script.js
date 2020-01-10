@@ -7,15 +7,18 @@ $(document).ready(function() {
         $('.form-doctor').hide(1500)
         $('.form-pationt').show(1500)
     });
-    if ($(window).width() <= 574.99) {
+    if ($(window).width() <= 750.99) {
         $('.processimge').click(function() {
+            $('.smaildeve').show(500);
             $('.smaildeve').css('display', 'block');
         })
+        $('.processimge').dblclick(function() {
+            $('.smaildeve').hide(500);
 
-    } else {
-        $('.processimge').click(function() {
-            $('.smaildeve').css('display', 'none');
         })
+
+    } else if ($(window).width() > 750.99) {
+        $('.smaildeve').remove();
     }
 
 });
