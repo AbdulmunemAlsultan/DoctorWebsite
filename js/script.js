@@ -12,6 +12,10 @@ $(document).ready(function() {
             $('.smaildeve').css('display', 'block');
         })
 
+    } else {
+        $('.processimge').click(function() {
+            $('.smaildeve').css('display', 'block');
+        })
     }
 
 });
