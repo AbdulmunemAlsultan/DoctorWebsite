@@ -7,6 +7,15 @@ $(document).ready(function() {
         $('.form-doctor').hide(1500)
         $('.form-pationt').show(1500)
     });
+    if ($(window).width() <= 480.99) {
 
+        $('.processimge').click(function() {
+            $('.smaildeve').css('display', 'block');
+        })
+
+    } else {
+        $('.smaildeve').hide(500);
+        console.log("more windows")
+    }
 
 });

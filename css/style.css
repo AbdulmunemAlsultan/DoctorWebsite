@@ -1916,6 +1916,26 @@ body {
         padding-left: 5px;
         border-radius: 10px;
     }
+    .dashheader .dashbord-data:nth-child(3) {
+        float: right;
+        margin-top: 2px;
+        border: 2px solid white;
+        height: 62px;
+        width: 8%;
+        border-radius: 10px;
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+    .dashbord-data .photo-logout {
+        width: 40px;
+        display: flex;
+    }
+    .photo-logout:hover {
+        transition: transform .15s ease;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
     .dashbord-data .processimge {
         width: 75px;
         height: 62px;
@@ -1955,6 +1975,32 @@ body {
         box-shadow: 10px 12px 8px 6px darkgrey;
         cursor: pointer;
     }
+    .smaildeve {
+        background-color: #BCBCBC;
+        margin: 0px;
+        padding: 0px;
+        /* border: 1px solid black; */
+        height: 70px;
+        display: none;
+    }
+    .smaildeve .ac-out {
+        display: flex;
+        /* display: none; */
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        border-bottom: 1px solid white;
+    }
+    .smaildeve .ac-out a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+    .ac-out a:hover {
+        transition: transform .15s ease;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
 }
 
 @media (min-width: 575.98px) {
@@ -1982,6 +2028,26 @@ body {
         position: absolute;
         padding-left: 5px;
         border-radius: 10px;
+    }
+    .dashheader .dashbord-data:nth-child(3) {
+        float: right;
+        margin-top: 2px;
+        border: 2px solid white;
+        height: 62px;
+        width: 8%;
+        border-radius: 10px;
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+    .dashbord-data .photo-logout {
+        width: 40px;
+        display: flex;
+    }
+    .photo-logout:hover {
+        transition: transform .15s ease;
+        transform: scale(1.1);
+        cursor: pointer;
     }
     .dashbord-data .processimge {
         width: 75px;
@@ -2024,6 +2090,26 @@ body {
         box-shadow: 10px 12px 8px 6px darkgrey;
         cursor: pointer;
     }
+    .smaildeve {
+        background-color: #BCBCBC;
+        margin: 0px;
+        padding: 0px;
+        /* border: 1px solid black; */
+        height: 70px;
+        display: none;
+    }
+    .smaildeve .ac-out {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        border-bottom: 1px solid white;
+    }
+    .smaildeve .ac-out a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
 }
 
 @media (min-width: 767.98px) {
@@ -2058,6 +2144,46 @@ body {
         height: 62px;
         position: absolute;
     }
+    .dashheader .dashbord-data:nth-child(3) {
+        float: right;
+        margin-top: 2px;
+        border: 2px solid white;
+        height: 62px;
+        width: 8%;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dashbord-data .photo-logout {
+        width: 40px;
+        display: flex;
+    }
+    .photo-logout:hover {
+        transition: transform .15s ease;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    .smaildeve {
+        background-color: #BCBCBC;
+        margin: 0px;
+        padding: 0px;
+        /* border: 1px solid black; */
+        height: 70px;
+        display: none;
+    }
+    .smaildeve .ac-out {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        border-bottom: 1px solid white;
+    }
+    .smaildeve .ac-out a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
 }
 
 @media (min-width: 991.98px) {
@@ -2085,6 +2211,26 @@ body {
         position: absolute;
         padding-left: 5px;
         border-radius: 10px;
+    }
+    .dashheader .dashbord-data:nth-child(3) {
+        float: right;
+        margin-top: 2px;
+        border: 2px solid white;
+        height: 62px;
+        width: 6.5%;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dashbord-data .photo-logout {
+        width: 40px;
+        display: flex;
+    }
+    .photo-logout:hover {
+        transition: transform .15s ease;
+        transform: scale(1.1);
+        cursor: pointer;
     }
     .dashbord-data .processimge {
         width: 75px;
@@ -2126,6 +2272,26 @@ body {
         transform: scale(1.1);
         box-shadow: 10px 12px 8px 6px darkgrey;
         cursor: pointer;
+    }
+    .smaildeve {
+        background-color: #BCBCBC;
+        margin: 0px;
+        padding: 0px;
+        /* border: 1px solid black; */
+        height: 70px;
+        display: none;
+    }
+    .smaildeve .ac-out {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        border-bottom: 1px solid white;
+    }
+    .smaildeve .ac-out a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
     }
 }
 
