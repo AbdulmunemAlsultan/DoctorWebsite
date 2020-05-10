@@ -1,11 +1,31 @@
 $(document).ready(function() {
-    $("#doc").click(function() {
-        $('.form-pationt').hide(1500)
-        $('.form-doctor').show(1500)
+    $(".slidDoctor").click(function() {
+        $('.form-doctor').slideDown(1500);
+
+        $('.form-doctor').css({
+            'display': 'block'
+        })
+        $('.form-pationt').slideUp(1500);
     });
+
+    $(".slidpatiant").click(function() {
+        $('.form-doctor').slideUp(1500)
+
+    });
+
+
+    $(".slidpatiant").click(function() {
+        $('.form-pationt').slideDown(1500)
+        $('.form-pationt').css({
+            'display': 'block'
+        })
+
+    });
+
+
     $("#pat").click(function() {
-        $('.form-doctor').hide(1500)
-        $('.form-pationt').show(1500)
+        $('.form-doctor').show(1500)
+
     });
     if ($(window).width() <= 750.99) {
         $('.processimge').click(function() {
@@ -20,5 +40,10 @@ $(document).ready(function() {
     } else if ($(window).width() > 750.99) {
         $('.smaildeve').remove();
     }
+
+    // login page vildation
+
+
+    // 
 
 });
