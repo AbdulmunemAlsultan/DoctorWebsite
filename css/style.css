@@ -2689,10 +2689,7 @@
     content: "\f068";
     float: right; 
 }
-.accordion .card-header.collapsed:after {
-    /* symbol for "collapsed" panels */
-    content: "\f067"; 
-}
+
         }
         /* End Admin Dashbord style */
         /* End search-doc style */
