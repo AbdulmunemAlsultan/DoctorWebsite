@@ -2683,6 +2683,16 @@
                 box-shadow: 10px 12px 8px 6px darkgrey;
                 filter: brightness(100%);
             }
+                
+                .slidDoctor .form-doctor:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
+}
         }
         /* End Admin Dashbord style */
         /* End search-doc style */
